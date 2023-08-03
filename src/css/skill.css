@@ -1,0 +1,38 @@
+.skill-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 100px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: #fc5b79;
+  border-radius: 100px;
+}
+
+.skill-desc {
+  text-align: center;
+}
+
+.icon-img {
+  width: 55px;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,70 @@
+.my-profile {
+  display: flex;
+  height: 150px;
+  color: azure;
+  background-color: #fc5b79;
+  align-items: center;
+}
+
+.head-desc {
+  width: 440px;
+}
+
+.follow-me {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.network-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #faa6b5;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.profile-button {
+  display: flex;
+  gap: 30px;
+}
+
+.profile-img {
+  width: 310px;
+  height: 300px;
+  object-fit: fill;
+  border-radius: 50px;
+}
+
+button {
+  border: 1px #faa6b5 solid;
+  border-radius: 18px;
+  height: 55px;
+  width: 150px;
+  color: slategrey;
+  font-size: large;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 600px) {
+  .head-desc {
+    text-align: center;
+  }
+  .hide {
+    display: none;
+  }
+  .follow-me {
+    display: flex;
+    justify-content: center;
+  }
+  .profile-button {
+    display: flex;
+    justify-content: center;
+  }
+  .hi {
+    display: none;
+  }
+}

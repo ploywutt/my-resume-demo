@@ -1,0 +1,65 @@
+.port-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 70px;
+  padding: 0 160px 100px 160px;
+}
+
+.pic-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 290px;
+  position: relative;
+}
+
+.port-img {
+  width: 300px;
+  height: 290px;
+  object-fit: fill;
+  border-radius: 50px;
+}
+
+.port-img:hover {
+  box-shadow: 20px 10px 20px rgba(100, 99, 100, 0.3);
+  width: 315px;
+  height: 305px;
+}
+
+.port-img:active {
+  box-shadow: 15px 15px 40px rgba(100, 99, 100, 0.2);
+  width: 0px;
+  height: 0px;
+}
+
+.arrow {
+  width: 20px;
+}
+
+.secret {
+  position: absolute;
+  width: 100px;
+  z-index: -10;
+  top: 100px;
+  left: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .port-list {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px 150px;
+  }
+  .port-img {
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+    border-radius: 20px;
+  }
+  .see-more {
+    display: none;
+  }
+}
