@@ -11,7 +11,7 @@ function Footer() {
           <img className="icon-link" src={mail} />
           <h6>ploy.wutt@gmail.com</h6>
         </div>
-        <div className="reverse">
+        <div className="reverse wrapper">
           <div className="copyright">
             <h6>© Copyright 2023 | ploywutt</h6>
           </div>
