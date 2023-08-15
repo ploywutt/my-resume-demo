@@ -14,8 +14,8 @@ function Header() {
             <br />a Frontend developer.
           </h2>
           <h4 className="head-desc">
-            Frontend developer based in tehran, Iran. I am coding with a clean
-            and beautiful problem solving in mind.
+            Frontend developer based in Bangkok, Thailand. I am coding with a
+            clean and beautiful problem solving in mind.
           </h4>
           <div className="follow-me">
             <p className="hide">Follow me</p>
